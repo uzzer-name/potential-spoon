@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid #171653;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin: 8px 0;
+  }
+  
+  .card-description {
+    font-size: 1em;
+    margin: 8px 0;
+  }
+  
+  .card-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.25s;
+  }
+  
+  .card-button:hover {
+    background-color: #0b4380;
+  }
